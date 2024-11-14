@@ -1,0 +1,47 @@
+.portfolio-container {
+    background-color: rgba(20, 29, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-head-container {
+    padding-top: 200px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
+    margin-left: 1000px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.sideline-right {
+    bottom: 100px;
+    height: 1px;
+    background-color: rgba(151, 71, 255, 1);
+    border: 3px solid rgba(151, 71, 255, 1);
+    width: 1100px;
+    overflow: hidden;
+}
+
+.sideline-left {
+    height: 1px;
+    background-color: rgba(151, 71, 255, 1);
+    border: 3px solid rgba(151, 71, 255, 1);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100px;
+}
+
+.explore-text {
+    font-size: 16px;
+    font-weight: 400;
+}
