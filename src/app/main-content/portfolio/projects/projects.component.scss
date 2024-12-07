@@ -1,0 +1,52 @@
+.project-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+
+    >img {
+        width: 600px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    &.reverse-layout {
+        flex-direction: row-reverse;
+        >.project-text-container{
+            align-items: flex-end;
+            text-align: right;
+        }
+    }
+}
+
+.project-text-container {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    >h2 {
+        font-weight: 700;
+        font-size: 32px;
+        color: rgba(151, 71, 255, 1);
+        margin: 0;
+    }
+
+    >.code-language {
+        color: rgba(112, 230, 28, 1);
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    >.project-description {
+        font-size: 16px;
+        color: white;
+    }
+}
+
+.porject-buttons {
+    width: 375px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
